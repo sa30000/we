@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Hell's Tower</title>
+    <style>
+        body {
+            background-color: #2c2a29;
+            color: #f0f0f0;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            height: 100vh;
+        }
+        header {
+            background-color: #b71c1c;
+            text-align: center;
+            padding: 20px;
+        }
+        header h1 {
+            font-size: 3em;
+            letter-spacing: 5px;
+        }
+        section {
+            padding: 40px;
+            text-align: center;
+        }
+        .tower-description {
+            font-size: 1.2em;
+            line-height: 1.6;
+        }
+        footer {
+            background-color: #b71c1c;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to Hell's Tower</h1>
+    </header>
+
+    <section>
+        <div class="tower-description">
+            <p>Hell's Tower stands as a dark, foreboding structure that stretches into the sky. Legends say it is inhabited by fierce guardians, cursed souls, and forbidden magic. Brave adventurers who attempt to ascend it rarely return.</p>
+            <p>The tower's interior is filled with perilous traps, twisted corridors, and terrifying creatures. Only the most fearless dare enter.</p>
+            <p>Do you have the courage to climb the tower and face the horrors that await within?</p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2025 Hell's Tower. All rights reserved.</p>
+    </footer>
+</body>
+</html>
